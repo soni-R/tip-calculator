@@ -1,3 +1,5 @@
+# Tip Calculator
+
 - In this course we will build Tip Calculator using Html, Css and JavaScript.
 
 - The main aim of this course is to make beginners understand how Html, Css and JavaScript work together to build a project.
