@@ -18,10 +18,12 @@
         <div>
             <label>Tip:</label>
             <input type="range" value="0" id="tipInput">
+            <span id="tipOutput"></span>
         </div>
         <div>
             <label>Split(number of people)</label>
             <input type="range" min="1" max="10" value="1" id="splitInput">
+            <span id="splitOutput"></span>
         </div>
         <hr>
         <div>
@@ -39,6 +41,9 @@
             var bill = document.getElementById('billTotal').value;
             var tipPercent = document.getElementById('tipInput').value;
             var split = document.getElementById('splitInput').value;
+
+            document.getElementById('tipOutput').innerHTML = tipPercent + "%";
+            document.getElementById('splitOutput').innerHTML = split;
         }
     </script>
 </body>
