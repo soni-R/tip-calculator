@@ -29,5 +29,9 @@ label, input{
 }
 
 @media(min-width: 700px){
-    
+    body{
+        width:60%;
+        background: url('background.jpg') no-repeat;
+        background-size: cover;
+    }
 }
