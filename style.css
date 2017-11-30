@@ -34,4 +34,8 @@ label, input{
         background: url('background.jpg') no-repeat;
         background-size: cover;
     }
+
+    #container{
+        opacity: 0.9;
+    }
 }
