@@ -38,4 +38,9 @@ label, input{
     #container{
         opacity: 0.9;
     }
+
+    label, input{
+        display: inline-block;
+        width: 40%;
+    }
 }
