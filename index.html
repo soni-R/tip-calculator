@@ -31,8 +31,15 @@
             <div>
                 <label>Tip Amount(per person):</label><span>0</span>
             </div>
-        </div>
-        
+        </div>   
     </div>
+
+    <script>
+        document.getElementById('container').onchange = function() {
+            var bill = document.getElementById('billTotal').value;
+            var tipPercent = document.getElementById('tipInput').value;
+            var split = document.getElementById('splitInput').value;
+        }
+    </script>
 </body>
 </html>
