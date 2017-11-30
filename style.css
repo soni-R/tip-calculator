@@ -18,3 +18,8 @@ h1{
 div {
     line-height: 2.5em;
 }
+
+input[type="text"]{
+    font-size: 1.1em;
+    text-align: center;
+}
