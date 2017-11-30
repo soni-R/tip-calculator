@@ -14,3 +14,7 @@ h1{
     background: linear-gradient(-45deg, rgb(245, 156, 127), rgb(241, 89, 38));
     border-radius: 10px;
 }
+
+div {
+    line-height: 2.5em;
+}
