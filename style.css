@@ -43,4 +43,8 @@ label, input{
         display: inline-block;
         width: 40%;
     }
+
+    div{
+        line-height: 4em;
+    }
 }
